@@ -8,7 +8,10 @@
 		<script type="text/javascript" id="demo">
 			(function($, window, undefined){
 				$(function(){
-					$('#demo').demo().appendTo($('body'));
+					$('#demo').demo({
+						lineNumbers: true,
+						indent: '  '
+					}).appendTo($('body'));
 				});
 			})(jQuery, this);
 		</script>
